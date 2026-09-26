@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#07161A">
+<title>Barcode Garden Belek · Menü</title>
+<meta name="description" content="Barcode Garden Belek dijital menü — Türkçe, English, Русский">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600;700&display=swap&subset=cyrillic" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Dil seçici (her ekranda sağ üstte) -->
+<div class="lang" id="lang">
+  <button class="lang-btn" id="langBtn" aria-haspopup="listbox" aria-expanded="false">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19M12 2.5c2.6 2.6 4 6 4 9.5s-1.4 6.9-4 9.5c-2.6-2.6-4-6-4-9.5s1.4-6.9 4-9.5z"/></svg>
+    <span id="langCode">TR</span>
+  </button>
+  <ul class="lang-list" id="langList" role="listbox" hidden>
+    <li><button data-lang="tr" role="option">Türkçe</button></li>
+    <li><button data-lang="en" role="option">English</button></li>
+    <li><button data-lang="ru" role="option">Русский</button></li>
+  </ul>
+</div>
+
+<!-- 1) KARŞILAMA -->
+<section class="screen welcome" id="welcome" aria-label="Barcode Garden Belek">
+  <div class="welcome-bg" aria-hidden="true">
+    <video id="welcomeVideo" muted loop playsinline autoplay preload="auto"></video>
+    <div class="glow g1"></div><div class="glow g2"></div><div class="glow g3"></div>
+    <div class="smoke"></div>
+  </div>
+  <button class="sound-btn" id="soundBtn" hidden aria-label="Ses">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z"/><path class="wave" d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/><path class="x" d="m16 9 6 6m0-6-6 6"/></svg>
+  </button>
+
+  <div class="welcome-content">
+    <img class="welcome-logo w-anim" src="assets/logo.png" alt="Barcode Garden Belek logo" width="180" height="120">
+    <h1 class="brand w-anim">Barcode <em>Garden</em></h1>
+    <p class="brand-sub w-anim">BELEK</p>
+    <p class="tagline w-anim" data-i18n="tagline"></p>
+
+    <button class="cta w-anim" id="viewMenu">
+      <span data-i18n="viewMenu"></span>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </button>
+
+    <nav class="socials w-anim" aria-label="Links">
+      <a class="soc" id="lnkWa" target="_blank" rel="noopener">
+        <span class="soc-ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 20.5 5 16a8.5 8.5 0 1 1 3.2 3.1z"/><path d="M9 8.5c0 3.5 3 6.5 6.5 6.5l1-1.6-2-1-1 .9c-1.2-.5-2.3-1.6-2.8-2.8l.9-1-1-2z" class="fill"/></svg></span>
+        <span data-i18n="whatsapp"></span>
+      </a>
+      <a class="soc" id="lnkIg" target="_blank" rel="noopener">
+        <span class="soc-ic"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".9" class="fill"/></svg></span>
+        <span data-i18n="instagram"></span>
+      </a>
+      <a class="soc" id="lnkRv" target="_blank" rel="noopener">
+        <span class="soc-ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.8l-5.2 2.8 1-5.8-4.3-4.1 5.9-.9z"/></svg></span>
+        <span data-i18n="review"></span>
+      </a>
+      <button class="soc" id="btnWifi">
+        <span class="soc-ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 9a14 14 0 0 1 19 0M5.5 12.5a9.5 9.5 0 0 1 13 0M8.5 16a5 5 0 0 1 7 0"/><circle cx="12" cy="19.2" r="1" class="fill"/></svg></span>
+        <span data-i18n="wifi"></span>
+      </button>
+    </nav>
+  </div>
+</section>
+
+<!-- 2) KATEGORİLER -->
+<section class="screen cats" id="cats" hidden>
+  <header class="bar">
+    <button class="icon-btn" data-go="welcome" data-i18n-aria="back">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+    </button>
+    <div class="bar-title"><img src="assets/logo.png" alt="" width="36" height="24"><span data-i18n="menu"></span></div>
+    <button class="icon-btn search-open" data-i18n-aria="searchBtn">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></svg>
+    </button>
+  </header>
+  <main class="cats-body">
+    <button class="search-field search-open">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></svg>
+      <span data-i18n="search"></span>
+    </button>
+    <h2 class="section-title" data-i18n="categories"></h2>
+    <div class="cat-grid" id="catGrid"></div>
+  </main>
+</section>
+
+<!-- 3) ÜRÜN LİSTESİ (kaydırmalı kategori çubuğu) -->
+<section class="screen list" id="list" hidden>
+  <header class="bar">
+    <button class="icon-btn" data-go="cats" data-i18n-aria="back">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+    </button>
+    <div class="bar-title"><img src="assets/logo.png" alt="" width="36" height="24"><span data-i18n="menu"></span></div>
+    <button class="icon-btn search-open" data-i18n-aria="searchBtn">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></svg>
+    </button>
+  </header>
+  <nav class="chips" id="chips" aria-label="Categories"><div class="chips-track" id="chipsTrack"></div></nav>
+  <main class="list-body" id="listBody"></main>
+</section>
+
+<!-- Arama -->
+<div class="overlay search" id="search" hidden role="dialog" aria-modal="true">
+  <div class="search-head">
+    <div class="search-input">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></svg>
+      <input id="q" type="search" autocomplete="off" enterkeyhint="search">
+    </div>
+    <button class="text-btn" id="searchClose" data-i18n="close"></button>
+  </div>
+  <div class="search-results" id="results"></div>
+</div>
+
+<!-- Ürün detayı -->
+<div class="overlay sheet-wrap" id="detail" hidden role="dialog" aria-modal="true">
+  <div class="scrim" data-close></div>
+  <article class="sheet" id="sheet"></article>
+</div>
+
+<!-- Wi-Fi -->
+<div class="overlay sheet-wrap" id="wifi" hidden role="dialog" aria-modal="true">
+  <div class="scrim" data-close></div>
+  <article class="sheet sheet-sm" id="wifiSheet"></article>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -49,6 +49,7 @@
     if (!$("#search").hidden) runSearch();
     if (openItem) renderDetail(...openItem);
     if (!$("#wifi").hidden) renderWifi();
+    if (!$("#wa").hidden) renderWa();
   }
   const langBtn = $("#langBtn"), langList = $("#langList");
   const toggleLang = open => {
@@ -68,7 +69,18 @@
   document.addEventListener("click", e => { if (!e.target.closest("#lang")) toggleLang(false); });
 
   /* ---------- Karşılama: linkler + video ---------- */
-  $("#lnkWa").href = `https://wa.me/${CONFIG.whatsapp}`;
+  // WhatsApp: tek numara → doğrudan aç, birden fazla → seçim penceresi
+  const waNums = [].concat(CONFIG.whatsapp).filter(Boolean);
+  const waFmt = n => n.replace(/^90(\d{3})(\d{3})(\d{2})(\d{2})$/, "0 $1 $2 $3 $4");
+  $("#lnkWa").href = `https://wa.me/${waNums[0]}`;
+  if (waNums.length > 1) $("#lnkWa").addEventListener("click", e => { e.preventDefault(); renderWa(); openOverlay($("#wa")); });
+  function renderWa() {
+    $("#waSheet").innerHTML = `
+      <h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 20.5 5 16a8.5 8.5 0 1 1 3.2 3.1z"/><path d="M9 8.5c0 3.5 3 6.5 6.5 6.5l1-1.6-2-1-1 .9c-1.2-.5-2.3-1.6-2.8-2.8l.9-1-1-2z" class="fill"/></svg>${esc(t("waTitle"))}</h3>
+      ${waNums.map((n, i) => `
+        <div class="wifi-row"><div><small>${esc(t("waLine"))} ${i + 1}</small><b>${esc(waFmt(n))}</b></div>
+          <a class="copy-btn" href="https://wa.me/${n}" target="_blank" rel="noopener">${esc(t("waOpen"))}</a></div>`).join("")}`;
+  }
   $("#lnkIg").href = CONFIG.instagram;
   $("#lnkRv").href = CONFIG.googleReview;
 

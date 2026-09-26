@@ -4,9 +4,10 @@
  * Alerjen ve kalori değerleri tahminidir; mutfak tarifleriyle kontrol edilmelidir.
  */
 window.CONFIG = {
-  whatsapp: "905000000000",                 // TODO: başında + olmadan, ülke koduyla (ör. 905321234567)
-  instagram: "https://instagram.com/",      // TODO: Instagram profil linki
-  googleReview: "https://maps.google.com/", // TODO: Google Haritalar "yorum yaz" linki
+  // Başında + olmadan, ülke koduyla. Tek numara bırakılırsa buton doğrudan WhatsApp'ı açar.
+  whatsapp: ["905066092261", "905336090993"],
+  instagram: "https://www.instagram.com/barcodegardenbelek/",
+  googleReview: "https://maps.google.com/?cid=14040448779223355186", // Barcode Garden Belek (Google Haritalar)
   wifi: { ssid: "BarcodeGarden", password: "sifre1234" }, // TODO
   video: "assets/welcome.mp4",              // karşılama videosu (dosyayı bu isimle assets klasörüne koyun)
   defaultLang: "tr"
@@ -35,6 +36,9 @@ window.UI = {
   disclaimer:  T("Alerjen ve kalori bilgileri ortalama değerlerdir. Alerjiniz varsa lütfen sipariş vermeden önce personelimize danışın.",
                  "Allergen and calorie information are average values. If you have an allergy, please inform our staff before ordering.",
                  "Данные об аллергенах и калорийности являются средними. При наличии аллергии сообщите, пожалуйста, персоналу перед заказом."),
+  waTitle:     T("WhatsApp ile yazın", "Message us on WhatsApp", "Напишите нам в WhatsApp"),
+  waLine:      T("Hat", "Line", "Линия"),
+  waOpen:      T("Yaz", "Chat", "Написать"),
   wifiTitle:   T("Wi-Fi Bağlantısı", "Wi-Fi Connection", "Подключение к Wi-Fi"),
   network:     T("Ağ adı", "Network", "Сеть"),
   password:    T("Şifre", "Password", "Пароль"),

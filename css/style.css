@@ -260,7 +260,7 @@ mark { background: rgba(214, 174, 98, .28); color: var(--gold-hi); border-radius
 .wifi-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 14px 16px; margin-top: 12px; border-radius: 14px; background: rgba(7, 22, 26, .4); border: 1px solid var(--line-2); }
 .wifi-row small { display: block; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
 .wifi-row b { font-size: 18px; font-weight: 600; word-break: break-all; }
-.copy-btn { flex: none; min-height: 44px; padding: 0 16px; border-radius: 999px; font-size: 13px; font-weight: 700; color: var(--gold-ink); background: var(--gold); }
+.copy-btn { display: inline-flex; align-items: center; flex: none; min-height: 44px; padding: 0 16px; border-radius: 999px; font-size: 13px; font-weight: 700; color: var(--gold-ink); background: var(--gold); }
 
 .toast { position: fixed; left: 50%; bottom: calc(24px + var(--safe-b)); transform: translate(-50%, 20px); z-index: 100; opacity: 0; pointer-events: none;
   padding: 12px 20px; border-radius: 999px; background: var(--gold); color: var(--gold-ink); font-weight: 600; font-size: 14px;

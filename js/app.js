@@ -1,5 +1,5 @@
 /* Barcode Garden Belek — QR menü uygulaması */
-(() => {
+window.startApp = () => {
   const $ = (s, r = document) => r.querySelector(s);
   const $$ = (s, r = document) => [...r.querySelectorAll(s)];
   const LANGS = ["tr", "en", "ru"];
@@ -27,7 +27,7 @@
     setTimeout(run, 450);
   };
 
-  const L = o =>(o && (o[lang] ?? o.tr)) || "";
+  const L = o => (o && (o[lang] || o.tr)) || ""; // çeviri boşsa Türkçe göster
   const t = k => L(UI[k]);
   const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
@@ -420,4 +420,4 @@
   stack.push(start.screen);
   if (start.screen === "welcome") { introWelcome(); }
   else show(start.screen, start.cat, { push: false, instant: true });
-})();
+};

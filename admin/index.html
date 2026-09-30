@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#07161A">
+<title>Admin · Barcode Garden Belek</title>
+<link rel="icon" href="../assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+<!-- ============ GİRİŞ ============ -->
+<section class="login" id="login">
+  <form class="login-card" id="loginForm" autocomplete="on">
+    <img src="../assets/logo.png" alt="" width="84" height="56">
+    <h1>Admin Paneli</h1>
+    <p class="muted">Barcode Garden Belek QR menü yönetimi</p>
+
+    <div class="grid2">
+      <label>GitHub kullanıcı adı<input name="owner" required autocomplete="username" spellcheck="false"></label>
+      <label>Depo (repo) adı<input name="repo" required spellcheck="false"></label>
+    </div>
+    <label>Dal (branch)<input name="branch" value="main" required spellcheck="false"></label>
+    <label>Erişim anahtarı (token)
+      <input name="token" type="password" required autocomplete="current-password" spellcheck="false" placeholder="github_pat_…">
+    </label>
+    <label class="check"><input type="checkbox" name="remember"> Bu cihazda hatırla</label>
+
+    <p class="error" id="loginError" role="alert" hidden></p>
+    <button class="btn gold wide" type="submit" id="loginBtn">Bağlan</button>
+    <button class="btn ghost wide" type="button" id="previewBtn">Önizleme modu (kaydetmeden dene)</button>
+
+    <details class="help">
+      <summary>Erişim anahtarı nasıl alınır?</summary>
+      <ol>
+        <li>GitHub'da <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">Fine-grained token oluştur</a> sayfasını açın.</li>
+        <li><b>Repository access</b> → <i>Only select repositories</i> → menü deposunu seçin.</li>
+        <li><b>Permissions → Contents</b> → <i>Read and write</i> yapın.</li>
+        <li>Oluşturun ve <code>github_pat_</code> ile başlayan anahtarı buraya yapıştırın.</li>
+      </ol>
+      <p class="muted">Anahtar sadece bu tarayıcıda saklanır, başka hiçbir yere gönderilmez (yalnızca GitHub'a).</p>
+    </details>
+  </form>
+</section>
+
+<!-- ============ PANEL ============ -->
+<div class="app" id="app" hidden>
+  <header class="top">
+    <div class="brand"><img src="../assets/logo.png" alt="" width="36" height="24"><span>Admin</span></div>
+    <nav class="tabs" role="tablist">
+      <button role="tab" data-view="products" aria-selected="true">Ürünler</button>
+      <button role="tab" data-view="categories">Kategoriler</button>
+      <button role="tab" data-view="settings">Ayarlar</button>
+    </nav>
+    <div class="top-right">
+      <span class="pill" id="dirtyPill" hidden></span>
+      <button class="btn gold" id="publishBtn" disabled>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 16V4M6 10l6-6 6 6M4 20h16"/></svg>
+        <span>Yayınla</span>
+      </button>
+      <div class="more">
+        <button class="icon-btn" id="moreBtn" aria-label="Diğer" aria-haspopup="menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="5" r="1.4" class="fill"/><circle cx="12" cy="12" r="1.4" class="fill"/><circle cx="12" cy="19" r="1.4" class="fill"/></svg>
+        </button>
+        <div class="menu" id="moreMenu" role="menu" hidden>
+          <a role="menuitem" href="../" target="_blank" rel="noopener">Menüyü aç</a>
+          <button role="menuitem" data-more="download">JSON yedeği indir</button>
+          <button role="menuitem" data-more="reload">Sunucudan yeniden yükle</button>
+          <button role="menuitem" data-more="logout" class="danger">Çıkış yap</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="banner" id="modeBanner" hidden></div>
+
+  <!-- Ürünler -->
+  <main class="view products" id="v-products">
+    <aside class="catnav" id="catNav" aria-label="Kategoriler"></aside>
+    <section class="pane">
+      <div class="toolbar">
+        <select id="catSelect" class="mobile-only" aria-label="Kategori"></select>
+        <div class="search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></svg>
+          <input id="search" type="search" placeholder="Tüm ürünlerde ara…" aria-label="Ürün ara">
+        </div>
+        <button class="btn gold" id="addItem">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span>Ürün ekle</span>
+        </button>
+      </div>
+      <h2 class="pane-title" id="paneTitle"></h2>
+      <div class="rows" id="itemList"></div>
+    </section>
+  </main>
+
+  <!-- Kategoriler -->
+  <main class="view single" id="v-categories" hidden>
+    <div class="toolbar">
+      <h2 class="pane-title">Kategoriler</h2>
+      <button class="btn gold" id="addCat"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span>Kategori ekle</span></button>
+    </div>
+    <p class="muted">Sıralama menüdeki sırayı belirler. Gizlenen kategori menüde görünmez.</p>
+    <div class="rows" id="catList"></div>
+  </main>
+
+  <!-- Ayarlar -->
+  <main class="view single" id="v-settings" hidden>
+    <h2 class="pane-title">Ayarlar</h2>
+    <form class="settings" id="settingsForm">
+      <fieldset>
+        <legend>İletişim</legend>
+        <label>WhatsApp numaraları <small>Her satıra bir numara, ülke koduyla ve + olmadan (ör. 905321234567)</small>
+          <textarea name="whatsapp" rows="2" spellcheck="false"></textarea></label>
+        <label>Instagram linki<input name="instagram" type="url" spellcheck="false"></label>
+        <label>Google değerlendirme / harita linki<input name="googleReview" type="url" spellcheck="false"></label>
+      </fieldset>
+      <fieldset>
+        <legend>Wi-Fi</legend>
+        <div class="grid2">
+          <label>Ağ adı<input name="wifiSsid" spellcheck="false"></label>
+          <label>Şifre<input name="wifiPassword" spellcheck="false"></label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Diğer</legend>
+        <div class="grid2">
+          <label>Karşılama videosu yolu<input name="video" spellcheck="false"><small>Videoyu depoya bu yolla yükleyin (ör. assets/welcome.mp4)</small></label>
+          <label>Para birimi<input name="currency" spellcheck="false"></label>
+        </div>
+      </fieldset>
+    </form>
+  </main>
+</div>
+
+<!-- ============ ÜRÜN DÜZENLE ============ -->
+<dialog class="dlg" id="itemDlg" aria-labelledby="itemDlgTitle">
+  <form method="dialog" id="itemForm" novalidate>
+    <header class="dlg-head">
+      <h3 id="itemDlgTitle">Ürün</h3>
+      <button class="icon-btn" value="cancel" formnovalidate aria-label="Kapat"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+    </header>
+    <div class="dlg-body">
+      <div class="photo">
+        <img id="fImg" alt="Ürün fotoğrafı">
+        <div class="photo-acts">
+          <button type="button" class="btn" data-photo="upload"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 16V4M6 10l6-6 6 6M4 20h16"/></svg><span>Fotoğraf yükle</span></button>
+          <button type="button" class="btn ghost" data-photo="gallery"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="4.5" width="17" height="15" rx="2.5"/><circle cx="9" cy="10" r="1.8"/><path d="m20.5 16-5-5-8.5 8.5"/></svg><span>Galeriden seç</span></button>
+          <small class="muted">Fotoğraf otomatik küçültülür (en fazla 1000 px).</small>
+        </div>
+      </div>
+
+      <div class="field-group">
+        <p class="group-label">Ürün adı</p>
+        <label class="lang-field"><span class="lang-tag">TR</span><input name="name_tr" required placeholder="Zorunlu"></label>
+        <label class="lang-field"><span class="lang-tag">EN</span><input name="name_en" placeholder="Boşsa Türkçe gösterilir"></label>
+        <label class="lang-field"><span class="lang-tag">RU</span><input name="name_ru" placeholder="Boşsa Türkçe gösterilir"></label>
+      </div>
+
+      <div class="field-group">
+        <p class="group-label">Açıklama <small>(isteğe bağlı)</small></p>
+        <label class="lang-field"><span class="lang-tag">TR</span><textarea name="desc_tr" rows="2"></textarea></label>
+        <label class="lang-field"><span class="lang-tag">EN</span><textarea name="desc_en" rows="2"></textarea></label>
+        <label class="lang-field"><span class="lang-tag">RU</span><textarea name="desc_ru" rows="2"></textarea></label>
+      </div>
+
+      <div class="grid3">
+        <label>Fiyat<span class="suffix-wrap"><input name="price" type="number" inputmode="numeric" min="0" step="1" required><span class="suffix" id="curSuffix">TL</span></span></label>
+        <label>Kalori (kcal)<input name="kcal" type="number" inputmode="numeric" min="0" step="1" placeholder="Yok"></label>
+        <label>Kategori<select name="cat"></select></label>
+      </div>
+
+      <div class="field-group">
+        <p class="group-label">Alerjenler</p>
+        <div class="allergens" id="fAllergens"></div>
+      </div>
+
+      <label class="check switch-row"><input type="checkbox" name="visible"> Menüde göster</label>
+      <p class="error" id="itemError" role="alert" hidden></p>
+    </div>
+    <footer class="dlg-foot">
+      <button type="button" class="btn danger-ghost" id="itemDelete">Sil</button>
+      <span class="spacer"></span>
+      <button class="btn ghost" value="cancel" formnovalidate>İptal</button>
+      <button class="btn gold" value="save" id="itemSave">Kaydet</button>
+    </footer>
+  </form>
+</dialog>
+
+<!-- ============ KATEGORİ DÜZENLE ============ -->
+<dialog class="dlg dlg-sm" id="catDlg" aria-labelledby="catDlgTitle">
+  <form method="dialog" id="catForm" novalidate>
+    <header class="dlg-head">
+      <h3 id="catDlgTitle">Kategori</h3>
+      <button class="icon-btn" value="cancel" formnovalidate aria-label="Kapat"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+    </header>
+    <div class="dlg-body">
+      <div class="photo">
+        <img id="cImg" alt="Kapak fotoğrafı">
+        <div class="photo-acts">
+          <button type="button" class="btn" data-cphoto="upload"><span>Kapak yükle</span></button>
+          <button type="button" class="btn ghost" data-cphoto="gallery"><span>Galeriden seç</span></button>
+          <button type="button" class="btn ghost" data-cphoto="auto"><span>İlk ürünün fotoğrafı</span></button>
+        </div>
+      </div>
+      <div class="field-group">
+        <p class="group-label">Kategori adı</p>
+        <label class="lang-field"><span class="lang-tag">TR</span><input name="name_tr" required placeholder="Zorunlu"></label>
+        <label class="lang-field"><span class="lang-tag">EN</span><input name="name_en"></label>
+        <label class="lang-field"><span class="lang-tag">RU</span><input name="name_ru"></label>
+      </div>
+      <label class="check switch-row"><input type="checkbox" name="visible"> Menüde göster</label>
+      <p class="muted small" id="catIdInfo"></p>
+      <p class="error" id="catError" role="alert" hidden></p>
+    </div>
+    <footer class="dlg-foot">
+      <button type="button" class="btn danger-ghost" id="catDelete">Sil</button>
+      <span class="spacer"></span>
+      <button class="btn ghost" value="cancel" formnovalidate>İptal</button>
+      <button class="btn gold" value="save">Kaydet</button>
+    </footer>
+  </form>
+</dialog>
+
+<!-- ============ GALERİ ============ -->
+<dialog class="dlg" id="galleryDlg" aria-labelledby="galTitle">
+  <div class="dlg-head">
+    <h3 id="galTitle">Galeriden seç</h3>
+    <button class="icon-btn" data-close aria-label="Kapat"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+  </div>
+  <div class="dlg-body"><div class="gallery" id="gallery"></div></div>
+</dialog>
+
+<!-- ============ ONAY ============ -->
+<dialog class="dlg dlg-xs" id="askDlg">
+  <form method="dialog">
+    <div class="dlg-body"><h3 id="askTitle"></h3><p class="muted" id="askText"></p></div>
+    <footer class="dlg-foot">
+      <span class="spacer"></span>
+      <button class="btn ghost" value="no">Vazgeç</button>
+      <button class="btn danger" value="yes" id="askYes">Evet</button>
+    </footer>
+  </form>
+</dialog>
+
+<input type="file" id="fileIn" accept="image/*" hidden>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="../js/i18n.js"></script>
+<script src="admin.js"></script>
+</body>
+</html>

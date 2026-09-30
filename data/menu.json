@@ -1,0 +1,3671 @@
+{
+  "config": {
+    "whatsapp": [
+      "905066092261",
+      "905336090993"
+    ],
+    "instagram": "https://www.instagram.com/barcodegardenbelek/",
+    "googleReview": "https://maps.google.com/?cid=14040448779223355186",
+    "wifi": {
+      "ssid": "BarcodeGarden",
+      "password": "sifre1234"
+    },
+    "video": "assets/welcome.mp4",
+    "currency": "TL"
+  },
+  "categories": [
+    {
+      "id": "salads",
+      "name": {
+        "tr": "Salatalar",
+        "en": "Salads",
+        "ru": "Салаты"
+      },
+      "cover": "img/002-ceasar-salad-sezar-salata.jpg",
+      "hidden": false,
+      "items": [
+        {
+          "id": "ton-balikli-salata",
+          "name": {
+            "tr": "Ton Balıklı Salata",
+            "en": "Tuna Salad",
+            "ru": "Салат с тунцом"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 380,
+          "img": "img/001-tuna-salad-ton-balikli-salata.jpg",
+          "allergens": [
+            "fish",
+            "eggs",
+            "mustard"
+          ],
+          "kcal": 380,
+          "hidden": false
+        },
+        {
+          "id": "sezar-salata",
+          "name": {
+            "tr": "Sezar Salata",
+            "en": "Caesar Salad",
+            "ru": "Салат «Цезарь»"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 380,
+          "img": "img/002-ceasar-salad-sezar-salata.jpg",
+          "allergens": [
+            "gluten",
+            "eggs",
+            "milk",
+            "fish",
+            "mustard"
+          ],
+          "kcal": 450,
+          "hidden": false
+        },
+        {
+          "id": "akdeniz-salatasi",
+          "name": {
+            "tr": "Akdeniz Salatası",
+            "en": "Mediterranean Salad",
+            "ru": "Средиземноморский салат"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 300,
+          "img": "img/003-mediterranean-salad-akdeniz-salatasi.jpg",
+          "allergens": [
+            "milk"
+          ],
+          "kcal": 250,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": "snacks",
+      "name": {
+        "tr": "Aperatifler",
+        "en": "Snacks",
+        "ru": "Закуски"
+      },
+      "cover": "img/007-citir-tavuk-crispy-chicken.jpg",
+      "hidden": false,
+      "items": [
+        {
+          "id": "bira-tabagi-baslangic",
+          "name": {
+            "tr": "Bira Tabağı (Başlangıç)",
+            "en": "Beer Snacks (Starter Plate)",
+            "ru": "Закуски к пиву (сет)"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 450,
+          "img": "img/004-beer-snacks-starter-plate-bira-baslangic-tabagi.jpg",
+          "allergens": [
+            "gluten",
+            "milk",
+            "peanuts",
+            "nuts"
+          ],
+          "kcal": 650,
+          "hidden": false
+        },
+        {
+          "id": "karides",
+          "name": {
+            "tr": "Karides",
+            "en": "Shrimp",
+            "ru": "Креветки"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 750,
+          "img": "img/005-karides.jpg",
+          "allergens": [
+            "crustaceans",
+            "milk"
+          ],
+          "kcal": 350,
+          "hidden": false
+        },
+        {
+          "id": "patates-tabagi",
+          "name": {
+            "tr": "Patates Tabağı",
+            "en": "Potato Crisps",
+            "ru": "Картофель фри"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 300,
+          "img": "img/006-potato-crisps-patates-tabagi.jpg",
+          "allergens": [],
+          "kcal": 450,
+          "hidden": false
+        },
+        {
+          "id": "citir-tavuk",
+          "name": {
+            "tr": "Çıtır Tavuk",
+            "en": "Crispy Chicken",
+            "ru": "Хрустящая курица"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 300,
+          "img": "img/007-citir-tavuk-crispy-chicken.jpg",
+          "allergens": [
+            "gluten",
+            "eggs",
+            "milk"
+          ],
+          "kcal": 550,
+          "hidden": false
+        },
+        {
+          "id": "sigara-boregi",
+          "name": {
+            "tr": "Sigara Böreği",
+            "en": "Cheese Rolls (Sigara Böreği)",
+            "ru": "Сигара бёрек (сырные рулетики)"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 160,
+          "img": "img/008-sigara-boregi.jpg",
+          "allergens": [
+            "gluten",
+            "milk",
+            "eggs"
+          ],
+          "kcal": 400,
+          "hidden": false
+        },
+        {
+          "id": "karisik-tost",
+          "name": {
+            "tr": "Karışık Tost",
+            "en": "Mixed Toast",
+            "ru": "Тост ассорти"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 280,
+          "img": "img/009-mixed-toast-karisik-tost.jpg",
+          "allergens": [
+            "gluten",
+            "milk"
+          ],
+          "kcal": 480,
+          "hidden": false
+        },
+        {
+          "id": "kasarli-tost",
+          "name": {
+            "tr": "Kaşarlı Tost",
+            "en": "Cheddar Toast",
+            "ru": "Тост с сыром"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 250,
+          "img": "img/010-cheddar-toast-kasarli-tost.jpg",
+          "allergens": [
+            "gluten",
+            "milk"
+          ],
+          "kcal": 420,
+          "hidden": false
+        },
+        {
+          "id": "sucuklu-tost",
+          "name": {
+            "tr": "Sucuklu Tost",
+            "en": "Sausage Toast",
+            "ru": "Тост с суджуком"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 250,
+          "img": "img/011-sausage-toast-sucuklu-tost.jpg",
+          "allergens": [
+            "gluten",
+            "milk"
+          ],
+          "kcal": 470,
+          "hidden": false
+        },
+        {
+          "id": "peynir-tabagi",
+          "name": {
+            "tr": "Peynir Tabağı",
+            "en": "Cheese Plate",
+            "ru": "Сырная тарелка"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 300,
+          "img": "img/012-cheese-plate-peynir-tabagi.jpg",
+          "allergens": [
+            "milk",
+            "nuts"
+          ],
+          "kcal": 450,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": "burgers",
+      "name": {
+        "tr": "Burgerler",
+        "en": "Burgers",
+        "ru": "Бургеры"
+      },
+      "cover": "img/015-barcode-special-double-burger.jpg",
+      "hidden": false,
+      "items": [
+        {
+          "id": "hamburger",
+          "name": {
+            "tr": "Hamburger",
+            "en": "Hamburger",
+            "ru": "Гамбургер"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 450,
+          "img": "img/013-hamburger.jpg",
+          "allergens": [
+            "gluten",
+            "sesame",
+            "eggs",
+            "mustard"
+          ],
+          "kcal": 750,
+          "hidden": false
+        },
+        {
+          "id": "cheeseburger",
+          "name": {
+            "tr": "Cheeseburger",
+            "en": "Cheeseburger",
+            "ru": "Чизбургер"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 450,
+          "img": "img/014-cheeseburger.jpg",
+          "allergens": [
+            "gluten",
+            "sesame",
+            "eggs",
+            "mustard",
+            "milk"
+          ],
+          "kcal": 850,
+          "hidden": false
+        },
+        {
+          "id": "barcode-special-double-burger",
+          "name": {
+            "tr": "Barcode Special Double Burger",
+            "en": "Barcode Special Double Burger",
+            "ru": "Barcode Special Double Burger"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 600,
+          "img": "img/015-barcode-special-double-burger.jpg",
+          "allergens": [
+            "gluten",
+            "sesame",
+            "eggs",
+            "mustard",
+            "milk"
+          ],
+          "kcal": 1200,
+          "hidden": false
+        },
+        {
+          "id": "tavuk-burger",
+          "name": {
+            "tr": "Tavuk Burger",
+            "en": "Chicken Burger",
+            "ru": "Куриный бургер"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 350,
+          "img": "img/016-tavuk-burger-chicken-burger.jpg",
+          "allergens": [
+            "gluten",
+            "sesame",
+            "eggs",
+            "mustard",
+            "milk"
+          ],
+          "kcal": 650,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": "pasta",
+      "name": {
+        "tr": "Makarnalar",
+        "en": "Pasta",
+        "ru": "Паста"
+      },
+      "cover": "img/018-pesto-soslu-tavuklu-penne.jpg",
+      "hidden": false,
+      "items": [
+        {
+          "id": "penne-arrabbiata",
+          "name": {
+            "tr": "Penne Arrabbiata",
+            "en": "Penne Arrabbiata",
+            "ru": "Пенне арраббьята"
+          },
+          "desc": {
+            "tr": "Sebzeli ve domates soslu",
+            "en": "With vegetables and tomato sauce",
+            "ru": "С овощами и томатным соусом"
+          },
+          "price": 400,
+          "img": "img/017-penne-arabiata.jpg",
+          "allergens": [
+            "gluten"
+          ],
+          "kcal": 550,
+          "hidden": false
+        },
+        {
+          "id": "pesto-soslu-tavuklu-penne",
+          "name": {
+            "tr": "Pesto Soslu Tavuklu Penne",
+            "en": "Chicken Penne with Pesto",
+            "ru": "Пенне с курицей и песто"
+          },
+          "desc": {
+            "tr": "Kremalı, mantarlı, tavuklu",
+            "en": "Creamy, with mushrooms and chicken",
+            "ru": "Сливочный соус, грибы, курица"
+          },
+          "price": 450,
+          "img": "img/018-pesto-soslu-tavuklu-penne.jpg",
+          "allergens": [
+            "gluten",
+            "milk",
+            "nuts"
+          ],
+          "kcal": 800,
+          "hidden": false
+        },
+        {
+          "id": "spagetti-bolonez",
+          "name": {
+            "tr": "Spagetti Bolonez",
+            "en": "Spaghetti Bolognese",
+            "ru": "Спагетти болоньезе"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 400,
+          "img": "img/019-spaghetti-bolognese.jpg",
+          "allergens": [
+            "gluten",
+            "celery",
+            "milk"
+          ],
+          "kcal": 700,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": "pizza",
+      "name": {
+        "tr": "Pizzalar",
+        "en": "Pizza",
+        "ru": "Пицца"
+      },
+      "cover": "img/021-karisik-pizza-mixed-pizza.jpg",
+      "hidden": false,
+      "items": [
+        {
+          "id": "pizza-margarita",
+          "name": {
+            "tr": "Pizza Margarita",
+            "en": "Pizza Margherita",
+            "ru": "Пицца «Маргарита»"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 450,
+          "img": "img/020-pizza-margarita.jpg",
+          "allergens": [
+            "gluten",
+            "milk"
+          ],
+          "kcal": 850,
+          "hidden": false
+        },
+        {
+          "id": "karisik-pizza",
+          "name": {
+            "tr": "Karışık Pizza",
+            "en": "Mixed Pizza",
+            "ru": "Пицца ассорти"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 450,
+          "img": "img/021-karisik-pizza-mixed-pizza.jpg",
+          "allergens": [
+            "gluten",
+            "milk"
+          ],
+          "kcal": 1050,
+          "hidden": false
+        },
+        {
+          "id": "vejetaryen-pizza",
+          "name": {
+            "tr": "Vejetaryen Pizza",
+            "en": "Vegetarian Pizza",
+            "ru": "Вегетарианская пицца"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 400,
+          "img": "img/022-vegeterian-pizza.jpg",
+          "allergens": [
+            "gluten",
+            "milk"
+          ],
+          "kcal": 800,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": "wraps",
+      "name": {
+        "tr": "Wraplar",
+        "en": "Wraps",
+        "ru": "Роллы"
+      },
+      "cover": "img/023-meat-wrap-et-wrap.jpg",
+      "hidden": false,
+      "items": [
+        {
+          "id": "et-wrap",
+          "name": {
+            "tr": "Et Wrap",
+            "en": "Meat Wrap",
+            "ru": "Ролл с говядиной"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 450,
+          "img": "img/023-meat-wrap-et-wrap.jpg",
+          "allergens": [
+            "gluten",
+            "milk",
+            "mustard"
+          ],
+          "kcal": 700,
+          "hidden": false
+        },
+        {
+          "id": "tavuk-wrap",
+          "name": {
+            "tr": "Tavuk Wrap",
+            "en": "Chicken Wrap",
+            "ru": "Ролл с курицей"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 320,
+          "img": "img/024-chicken-wrap-tavuk-wrap.jpg",
+          "allergens": [
+            "gluten",
+            "milk",
+            "mustard"
+          ],
+          "kcal": 600,
+          "hidden": false
+        },
+        {
+          "id": "vejetaryen-wrap",
+          "name": {
+            "tr": "Vejetaryen Wrap",
+            "en": "Vegetarian Wrap",
+            "ru": "Вегетарианский ролл"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 280,
+          "img": "img/025-vegeterian-wrap.jpg",
+          "allergens": [
+            "gluten",
+            "milk"
+          ],
+          "kcal": 480,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": "chicken",
+      "name": {
+        "tr": "Tavuk Menüler",
+        "en": "Chicken Dishes",
+        "ru": "Блюда из курицы"
+      },
+      "cover": "img/032-chicken-fajita.jpg",
+      "hidden": false,
+      "items": [
+        {
+          "id": "kremali-mantarli-tavuk",
+          "name": {
+            "tr": "Kremalı Mantarlı Tavuk",
+            "en": "Creamy Mushroom Chicken",
+            "ru": "Курица в сливочно-грибном соусе"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 450,
+          "img": "img/026-kremali-mantarli-tavuk-menu.jpg",
+          "allergens": [
+            "milk"
+          ],
+          "kcal": 750,
+          "hidden": false
+        },
+        {
+          "id": "kekikli-tavuk",
+          "name": {
+            "tr": "Kekikli Tavuk",
+            "en": "Chicken with Thyme",
+            "ru": "Курица с тимьяном"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 450,
+          "img": "img/026-kremali-mantarli-tavuk-menu.jpg",
+          "allergens": [],
+          "kcal": 600,
+          "hidden": false
+        },
+        {
+          "id": "sebzeli-tavuk",
+          "name": {
+            "tr": "Sebzeli Tavuk",
+            "en": "Chicken with Vegetables",
+            "ru": "Курица с овощами"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 450,
+          "img": "img/026-kremali-mantarli-tavuk-menu.jpg",
+          "allergens": [],
+          "kcal": 550,
+          "hidden": false
+        },
+        {
+          "id": "kori-soslu-tavuk",
+          "name": {
+            "tr": "Köri Soslu Tavuk",
+            "en": "Chicken with Curry Sauce",
+            "ru": "Курица в соусе карри"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 450,
+          "img": "img/026-kremali-mantarli-tavuk-menu.jpg",
+          "allergens": [
+            "milk",
+            "mustard",
+            "celery"
+          ],
+          "kcal": 700,
+          "hidden": false
+        },
+        {
+          "id": "aci-soslu-tavuk",
+          "name": {
+            "tr": "Acı Soslu Tavuk",
+            "en": "Spicy Sauce Chicken",
+            "ru": "Курица в остром соусе"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 450,
+          "img": "img/026-kremali-mantarli-tavuk-menu.jpg",
+          "allergens": [],
+          "kcal": 620,
+          "hidden": false
+        },
+        {
+          "id": "barbeku-soslu-tavuk",
+          "name": {
+            "tr": "Barbekü Soslu Tavuk",
+            "en": "Barbecue Sauce Chicken",
+            "ru": "Курица в соусе барбекю"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 450,
+          "img": "img/026-kremali-mantarli-tavuk-menu.jpg",
+          "allergens": [
+            "mustard",
+            "celery"
+          ],
+          "kcal": 680,
+          "hidden": false
+        },
+        {
+          "id": "tavuk-fajita",
+          "name": {
+            "tr": "Tavuk Fajita",
+            "en": "Chicken Fajita",
+            "ru": "Фахитас с курицей"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 450,
+          "img": "img/032-chicken-fajita.jpg",
+          "allergens": [
+            "gluten",
+            "milk"
+          ],
+          "kcal": 700,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": "cocktails",
+      "name": {
+        "tr": "Kokteyller",
+        "en": "Cocktails",
+        "ru": "Коктейли"
+      },
+      "cover": "img/106-aperol-spritz.jpg",
+      "hidden": false,
+      "items": [
+        {
+          "id": "aperol-spritz",
+          "name": {
+            "tr": "Aperol Spritz",
+            "en": "Aperol Spritz",
+            "ru": "Апероль Шприц"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 460,
+          "img": "img/106-aperol-spritz.jpg",
+          "allergens": [
+            "sulphites"
+          ],
+          "kcal": 200,
+          "hidden": false
+        },
+        {
+          "id": "long-island",
+          "name": {
+            "tr": "Long Island",
+            "en": "Long Island",
+            "ru": "Лонг-Айленд"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 550,
+          "img": "img/107-long-island.jpg",
+          "allergens": [],
+          "kcal": 280,
+          "hidden": false
+        },
+        {
+          "id": "sex-on-the-beach",
+          "name": {
+            "tr": "Sex On The Beach",
+            "en": "Sex On The Beach",
+            "ru": "Секс на пляже"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 460,
+          "img": "img/108-sex-on-the-beach.jpg",
+          "allergens": [],
+          "kcal": 250,
+          "hidden": false
+        },
+        {
+          "id": "bespresso",
+          "name": {
+            "tr": "Bespresso",
+            "en": "Bespresso",
+            "ru": "Беспрессо"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 500,
+          "img": "img/109-bespresso.jpg",
+          "allergens": [],
+          "kcal": 230,
+          "hidden": false
+        },
+        {
+          "id": "mojito",
+          "name": {
+            "tr": "Mojito",
+            "en": "Mojito",
+            "ru": "Мохито"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 460,
+          "img": "img/110-mojito.jpg",
+          "allergens": [],
+          "kcal": 220,
+          "hidden": false
+        },
+        {
+          "id": "pina-colada",
+          "name": {
+            "tr": "Piña Colada",
+            "en": "Piña Colada",
+            "ru": "Пина колада"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 460,
+          "img": "img/111-pi-a-colada.jpg",
+          "allergens": [
+            "milk"
+          ],
+          "kcal": 490,
+          "hidden": false
+        },
+        {
+          "id": "kuzu-kulagi",
+          "name": {
+            "tr": "Kuzu Kulağı",
+            "en": "Kuzu Kulağı (Sorrel)",
+            "ru": "Кузу Кулагы (щавель)"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 460,
+          "img": "img/112-kuzu-kulagi.jpg",
+          "allergens": [],
+          "kcal": 220,
+          "hidden": false
+        },
+        {
+          "id": "cosmopolitan",
+          "name": {
+            "tr": "Cosmopolitan",
+            "en": "Cosmopolitan",
+            "ru": "Космополитен"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 460,
+          "img": "img/113-cosmopolitan.jpg",
+          "allergens": [],
+          "kcal": 170,
+          "hidden": false
+        },
+        {
+          "id": "cuba-libre",
+          "name": {
+            "tr": "Cuba Libre",
+            "en": "Cuba Libre",
+            "ru": "Куба либре"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 460,
+          "img": "img/114-cuba-libre.jpg",
+          "allergens": [],
+          "kcal": 190,
+          "hidden": false
+        },
+        {
+          "id": "la-passion-by-code",
+          "name": {
+            "tr": "La Passion by Code",
+            "en": "La Passion by Code",
+            "ru": "Ла Пассьон бай Код"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 550,
+          "img": "img/115-la-passion-by-code.jpg",
+          "allergens": [],
+          "kcal": 250,
+          "hidden": false
+        },
+        {
+          "id": "margarita",
+          "name": {
+            "tr": "Margarita",
+            "en": "Margarita",
+            "ru": "Маргарита"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 460,
+          "img": "img/116-margarita.jpg",
+          "allergens": [],
+          "kcal": 250,
+          "hidden": false
+        },
+        {
+          "id": "tequila-sunrise",
+          "name": {
+            "tr": "Tequila Sunrise",
+            "en": "Tequila Sunrise",
+            "ru": "Текила санрайз"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 460,
+          "img": "img/117-tequila-sunrise.jpg",
+          "allergens": [],
+          "kcal": 230,
+          "hidden": false
+        },
+        {
+          "id": "lynchburg-lemonade",
+          "name": {
+            "tr": "Lynchburg Lemonade",
+            "en": "Lynchburg Lemonade",
+            "ru": "Линчбургский лимонад"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 500,
+          "img": "img/118-lynchburg-lemonade.jpg",
+          "allergens": [],
+          "kcal": 230,
+          "hidden": false
+        },
+        {
+          "id": "martini",
+          "name": {
+            "tr": "Martini",
+            "en": "Martini",
+            "ru": "Мартини"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 450,
+          "img": "img/119-martini.jpg",
+          "allergens": [
+            "sulphites"
+          ],
+          "kcal": 200,
+          "hidden": false
+        },
+        {
+          "id": "baileys",
+          "name": {
+            "tr": "Baileys",
+            "en": "Baileys",
+            "ru": "Бейлис"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 450,
+          "img": "img/120-baileys.jpg",
+          "allergens": [
+            "milk"
+          ],
+          "kcal": 230,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": "raki",
+      "name": {
+        "tr": "Rakı & Mezeler",
+        "en": "Raki & Meze",
+        "ru": "Раки и мезе"
+      },
+      "cover": "img/121-raki-70-cl-set.jpg",
+      "hidden": false,
+      "items": [
+        {
+          "id": "raki-70-cl-set",
+          "name": {
+            "tr": "Rakı · 70 cl Set",
+            "en": "Raki · 70 cl Set",
+            "ru": "Раки · Сет 70 cl"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 4500,
+          "img": "img/121-raki-70-cl-set.jpg",
+          "allergens": [],
+          "kcal": 1760,
+          "hidden": false
+        },
+        {
+          "id": "raki-35-cl-set",
+          "name": {
+            "tr": "Rakı · 35 cl Set",
+            "en": "Raki · 35 cl Set",
+            "ru": "Раки · Сет 35 cl"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 2750,
+          "img": "img/121-raki-70-cl-set.jpg",
+          "allergens": [],
+          "kcal": 880,
+          "hidden": false
+        },
+        {
+          "id": "tek-raki-kadeh",
+          "name": {
+            "tr": "Tek Rakı · Kadeh",
+            "en": "Raki · Single Glass",
+            "ru": "Раки · одинарный"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 400,
+          "img": "img/123-tek-raki-kadeh.jpg",
+          "allergens": [],
+          "kcal": 120,
+          "hidden": false
+        },
+        {
+          "id": "double-raki-kadeh",
+          "name": {
+            "tr": "Double Rakı · Kadeh",
+            "en": "Raki · Double Glass",
+            "ru": "Раки · двойной"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 550,
+          "img": "img/123-tek-raki-kadeh.jpg",
+          "allergens": [],
+          "kcal": 240,
+          "hidden": false
+        },
+        {
+          "id": "havuc-tarator",
+          "name": {
+            "tr": "Havuç Tarator",
+            "en": "Carrot Tarator",
+            "ru": "Морковный таратор"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 260,
+          "img": "img/125-havuc-tarator.jpg",
+          "allergens": [
+            "milk",
+            "nuts"
+          ],
+          "kcal": 180,
+          "hidden": false
+        },
+        {
+          "id": "haydari",
+          "name": {
+            "tr": "Haydari",
+            "en": "Haydari (Yogurt & Herb Dip)",
+            "ru": "Хайдари (йогурт с травами)"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 260,
+          "img": "img/126-haydari.jpg",
+          "allergens": [
+            "milk"
+          ],
+          "kcal": 170,
+          "hidden": false
+        },
+        {
+          "id": "suzme-yogurt",
+          "name": {
+            "tr": "Süzme Yoğurt",
+            "en": "Strained Yogurt",
+            "ru": "Густой йогурт"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 260,
+          "img": "img/127-suzme-yogurt.jpg",
+          "allergens": [
+            "milk"
+          ],
+          "kcal": 150,
+          "hidden": false
+        },
+        {
+          "id": "meyve-tabagi",
+          "name": {
+            "tr": "Meyve Tabağı",
+            "en": "Fruit Plate",
+            "ru": "Фруктовая тарелка"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 400,
+          "img": "img/128-meyve-tabagi.jpg",
+          "allergens": [],
+          "kcal": 250,
+          "hidden": false
+        },
+        {
+          "id": "peynir-tabagi-2",
+          "name": {
+            "tr": "Peynir Tabağı",
+            "en": "Cheese Plate",
+            "ru": "Сырная тарелка"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 300,
+          "img": "img/129-peynir-tabagi.jpg",
+          "allergens": [
+            "milk"
+          ],
+          "kcal": 450,
+          "hidden": false
+        },
+        {
+          "id": "salatalik-sogus",
+          "name": {
+            "tr": "Salatalık Söğüş",
+            "en": "Sliced Cucumber",
+            "ru": "Нарезка из огурцов"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 200,
+          "img": "img/130-salatalik-sogus.jpg",
+          "allergens": [],
+          "kcal": 40,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": "whisky",
+      "name": {
+        "tr": "Viski",
+        "en": "Whisky",
+        "ru": "Виски"
+      },
+      "cover": "img/037-black-label-35-cl-set.jpg",
+      "hidden": false,
+      "items": [
+        {
+          "id": "red-label-35-cl-set",
+          "name": {
+            "tr": "Red Label · 35 cl Set",
+            "en": "Red Label · 35 cl Set",
+            "ru": "Red Label · Сет 35 cl"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 3000,
+          "img": "img/033-red-label-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 780,
+          "hidden": false
+        },
+        {
+          "id": "red-label-70-cl-set",
+          "name": {
+            "tr": "Red Label · 70 cl Set",
+            "en": "Red Label · 70 cl Set",
+            "ru": "Red Label · Сет 70 cl"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 5000,
+          "img": "img/033-red-label-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 1560,
+          "hidden": false
+        },
+        {
+          "id": "red-label-tek",
+          "name": {
+            "tr": "Red Label · Tek",
+            "en": "Red Label · Single",
+            "ru": "Red Label · Одинарный"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 390,
+          "img": "img/033-red-label-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 110,
+          "hidden": false
+        },
+        {
+          "id": "red-label-double",
+          "name": {
+            "tr": "Red Label · Double",
+            "en": "Red Label · Double",
+            "ru": "Red Label · Двойной"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 550,
+          "img": "img/033-red-label-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 220,
+          "hidden": false
+        },
+        {
+          "id": "black-label-35-cl-set",
+          "name": {
+            "tr": "Black Label · 35 cl Set",
+            "en": "Black Label · 35 cl Set",
+            "ru": "Black Label · Сет 35 cl"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 3750,
+          "img": "img/037-black-label-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 780,
+          "hidden": false
+        },
+        {
+          "id": "black-label-70-cl-set",
+          "name": {
+            "tr": "Black Label · 70 cl Set",
+            "en": "Black Label · 70 cl Set",
+            "ru": "Black Label · Сет 70 cl"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 6500,
+          "img": "img/037-black-label-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 1560,
+          "hidden": false
+        },
+        {
+          "id": "black-label-tek",
+          "name": {
+            "tr": "Black Label · Tek",
+            "en": "Black Label · Single",
+            "ru": "Black Label · Одинарный"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 550,
+          "img": "img/037-black-label-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 110,
+          "hidden": false
+        },
+        {
+          "id": "black-label-double",
+          "name": {
+            "tr": "Black Label · Double",
+            "en": "Black Label · Double",
+            "ru": "Black Label · Двойной"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 650,
+          "img": "img/037-black-label-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 220,
+          "hidden": false
+        },
+        {
+          "id": "chivas-regal-35-cl-set",
+          "name": {
+            "tr": "Chivas Regal · 35 cl Set",
+            "en": "Chivas Regal · 35 cl Set",
+            "ru": "Chivas Regal · Сет 35 cl"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 3750,
+          "img": "img/041-chivas-regal-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 780,
+          "hidden": false
+        },
+        {
+          "id": "chivas-regal-70-cl-set",
+          "name": {
+            "tr": "Chivas Regal · 70 cl Set",
+            "en": "Chivas Regal · 70 cl Set",
+            "ru": "Chivas Regal · Сет 70 cl"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 6500,
+          "img": "img/041-chivas-regal-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 1560,
+          "hidden": false
+        },
+        {
+          "id": "chivas-regal-tek",
+          "name": {
+            "tr": "Chivas Regal · Tek",
+            "en": "Chivas Regal · Single",
+            "ru": "Chivas Regal · Одинарный"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 550,
+          "img": "img/041-chivas-regal-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 110,
+          "hidden": false
+        },
+        {
+          "id": "chivas-regal-double",
+          "name": {
+            "tr": "Chivas Regal · Double",
+            "en": "Chivas Regal · Double",
+            "ru": "Chivas Regal · Двойной"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 650,
+          "img": "img/041-chivas-regal-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 220,
+          "hidden": false
+        },
+        {
+          "id": "jack-daniel-s-35-cl-set",
+          "name": {
+            "tr": "Jack Daniel's · 35 cl Set",
+            "en": "Jack Daniel's · 35 cl Set",
+            "ru": "Jack Daniel's · Сет 35 cl"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 3750,
+          "img": "img/045-jack-daniels-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 780,
+          "hidden": false
+        },
+        {
+          "id": "jack-daniel-s-70-cl-set",
+          "name": {
+            "tr": "Jack Daniel's · 70 cl Set",
+            "en": "Jack Daniel's · 70 cl Set",
+            "ru": "Jack Daniel's · Сет 70 cl"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 6500,
+          "img": "img/045-jack-daniels-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 1560,
+          "hidden": false
+        },
+        {
+          "id": "jack-daniel-s-tek",
+          "name": {
+            "tr": "Jack Daniel's · Tek",
+            "en": "Jack Daniel's · Single",
+            "ru": "Jack Daniel's · Одинарный"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 550,
+          "img": "img/045-jack-daniels-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 110,
+          "hidden": false
+        },
+        {
+          "id": "jack-daniel-s-double",
+          "name": {
+            "tr": "Jack Daniel's · Double",
+            "en": "Jack Daniel's · Double",
+            "ru": "Jack Daniel's · Двойной"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 650,
+          "img": "img/045-jack-daniels-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 220,
+          "hidden": false
+        },
+        {
+          "id": "jameson-35-cl-set",
+          "name": {
+            "tr": "Jameson · 35 cl Set",
+            "en": "Jameson · 35 cl Set",
+            "ru": "Jameson · Сет 35 cl"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 3250,
+          "img": "img/049-jameson-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 780,
+          "hidden": false
+        },
+        {
+          "id": "jameson-70-cl-set",
+          "name": {
+            "tr": "Jameson · 70 cl Set",
+            "en": "Jameson · 70 cl Set",
+            "ru": "Jameson · Сет 70 cl"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 5500,
+          "img": "img/049-jameson-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 1560,
+          "hidden": false
+        },
+        {
+          "id": "jameson-tek",
+          "name": {
+            "tr": "Jameson · Tek",
+            "en": "Jameson · Single",
+            "ru": "Jameson · Одинарный"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 450,
+          "img": "img/049-jameson-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 110,
+          "hidden": false
+        },
+        {
+          "id": "jameson-double",
+          "name": {
+            "tr": "Jameson · Double",
+            "en": "Jameson · Double",
+            "ru": "Jameson · Двойной"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 600,
+          "img": "img/049-jameson-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 220,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": "vodka",
+      "name": {
+        "tr": "Votka",
+        "en": "Vodka",
+        "ru": "Водка"
+      },
+      "cover": "img/069-absolut-35-cl-set.jpg",
+      "hidden": false,
+      "items": [
+        {
+          "id": "absolut-35-cl-set",
+          "name": {
+            "tr": "Absolut · 35 cl Set",
+            "en": "Absolut · 35 cl Set",
+            "ru": "Absolut · Сет 35 cl"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 3250,
+          "img": "img/069-absolut-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 780,
+          "hidden": false
+        },
+        {
+          "id": "absolut-70-cl-set",
+          "name": {
+            "tr": "Absolut · 70 cl Set",
+            "en": "Absolut · 70 cl Set",
+            "ru": "Absolut · Сет 70 cl"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 5750,
+          "img": "img/069-absolut-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 1560,
+          "hidden": false
+        },
+        {
+          "id": "absolut-tek",
+          "name": {
+            "tr": "Absolut · Tek",
+            "en": "Absolut · Single",
+            "ru": "Absolut · Одинарный"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 500,
+          "img": "img/069-absolut-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 110,
+          "hidden": false
+        },
+        {
+          "id": "absolut-double",
+          "name": {
+            "tr": "Absolut · Double",
+            "en": "Absolut · Double",
+            "ru": "Absolut · Двойной"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 600,
+          "img": "img/069-absolut-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 220,
+          "hidden": false
+        },
+        {
+          "id": "istanblue-35-cl-set",
+          "name": {
+            "tr": "Istanblue · 35 cl Set",
+            "en": "Istanblue · 35 cl Set",
+            "ru": "Istanblue · Сет 35 cl"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 3250,
+          "img": "img/073-istanblue-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 780,
+          "hidden": false
+        },
+        {
+          "id": "istanblue-70-cl-set",
+          "name": {
+            "tr": "Istanblue · 70 cl Set",
+            "en": "Istanblue · 70 cl Set",
+            "ru": "Istanblue · Сет 70 cl"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 5500,
+          "img": "img/073-istanblue-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 1560,
+          "hidden": false
+        },
+        {
+          "id": "istanblue-tek",
+          "name": {
+            "tr": "Istanblue · Tek",
+            "en": "Istanblue · Single",
+            "ru": "Istanblue · Одинарный"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 450,
+          "img": "img/073-istanblue-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 110,
+          "hidden": false
+        },
+        {
+          "id": "istanblue-double",
+          "name": {
+            "tr": "Istanblue · Double",
+            "en": "Istanblue · Double",
+            "ru": "Istanblue · Двойной"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 550,
+          "img": "img/073-istanblue-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 220,
+          "hidden": false
+        },
+        {
+          "id": "smirnoff-35-cl-set",
+          "name": {
+            "tr": "Smirnoff · 35 cl Set",
+            "en": "Smirnoff · 35 cl Set",
+            "ru": "Smirnoff · Сет 35 cl"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 3250,
+          "img": "img/077-smirnoff-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 780,
+          "hidden": false
+        },
+        {
+          "id": "smirnoff-70-cl-set",
+          "name": {
+            "tr": "Smirnoff · 70 cl Set",
+            "en": "Smirnoff · 70 cl Set",
+            "ru": "Smirnoff · Сет 70 cl"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 5500,
+          "img": "img/077-smirnoff-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 1560,
+          "hidden": false
+        },
+        {
+          "id": "smirnoff-tek",
+          "name": {
+            "tr": "Smirnoff · Tek",
+            "en": "Smirnoff · Single",
+            "ru": "Smirnoff · Одинарный"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 450,
+          "img": "img/077-smirnoff-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 110,
+          "hidden": false
+        },
+        {
+          "id": "smirnoff-double",
+          "name": {
+            "tr": "Smirnoff · Double",
+            "en": "Smirnoff · Double",
+            "ru": "Smirnoff · Двойной"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 550,
+          "img": "img/077-smirnoff-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 220,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": "spirits",
+      "name": {
+        "tr": "Cin · Jäger · Tekila · Konyak · Rom",
+        "en": "Gin · Jäger · Tequila · Cognac · Rum",
+        "ru": "Джин · Егерь · Текила · Коньяк · Ром"
+      },
+      "cover": "img/053-gordon-cin-35-cl-set.jpg",
+      "hidden": false,
+      "items": [
+        {
+          "id": "gordon-s-gin-35-cl-set",
+          "name": {
+            "tr": "Gordon's Gin · 35 cl Set",
+            "en": "Gordon's Gin · 35 cl Set",
+            "ru": "Gordon's Gin · Сет 35 cl"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 3250,
+          "img": "img/053-gordon-cin-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 780,
+          "hidden": false
+        },
+        {
+          "id": "gordon-s-gin-70-cl-set",
+          "name": {
+            "tr": "Gordon's Gin · 70 cl Set",
+            "en": "Gordon's Gin · 70 cl Set",
+            "ru": "Gordon's Gin · Сет 70 cl"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 5500,
+          "img": "img/053-gordon-cin-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 1560,
+          "hidden": false
+        },
+        {
+          "id": "gordon-s-gin-tek",
+          "name": {
+            "tr": "Gordon's Gin · Tek",
+            "en": "Gordon's Gin · Single",
+            "ru": "Gordon's Gin · Одинарный"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 450,
+          "img": "img/053-gordon-cin-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 110,
+          "hidden": false
+        },
+        {
+          "id": "gordon-s-gin-double",
+          "name": {
+            "tr": "Gordon's Gin · Double",
+            "en": "Gordon's Gin · Double",
+            "ru": "Gordon's Gin · Двойной"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 550,
+          "img": "img/053-gordon-cin-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 220,
+          "hidden": false
+        },
+        {
+          "id": "beefeater-gin-35-cl-set",
+          "name": {
+            "tr": "Beefeater Gin · 35 cl Set",
+            "en": "Beefeater Gin · 35 cl Set",
+            "ru": "Beefeater Gin · Сет 35 cl"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 3250,
+          "img": "img/057-beefeater-cin-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 780,
+          "hidden": false
+        },
+        {
+          "id": "beefeater-gin-70-cl-set",
+          "name": {
+            "tr": "Beefeater Gin · 70 cl Set",
+            "en": "Beefeater Gin · 70 cl Set",
+            "ru": "Beefeater Gin · Сет 70 cl"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 5250,
+          "img": "img/057-beefeater-cin-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 1560,
+          "hidden": false
+        },
+        {
+          "id": "jagermeister-35-cl-set",
+          "name": {
+            "tr": "Jägermeister · 35 cl Set",
+            "en": "Jägermeister · 35 cl Set",
+            "ru": "Jägermeister · Сет 35 cl"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 3250,
+          "img": "img/059-j-germeister-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 900,
+          "hidden": false
+        },
+        {
+          "id": "jagermeister-70-cl-set",
+          "name": {
+            "tr": "Jägermeister · 70 cl Set",
+            "en": "Jägermeister · 70 cl Set",
+            "ru": "Jägermeister · Сет 70 cl"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 5500,
+          "img": "img/059-j-germeister-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 1800,
+          "hidden": false
+        },
+        {
+          "id": "jagermeister-tek",
+          "name": {
+            "tr": "Jägermeister · Tek",
+            "en": "Jägermeister · Single",
+            "ru": "Jägermeister · Одинарный"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 360,
+          "img": "img/059-j-germeister-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 100,
+          "hidden": false
+        },
+        {
+          "id": "jagermeister-double",
+          "name": {
+            "tr": "Jägermeister · Double",
+            "en": "Jägermeister · Double",
+            "ru": "Jägermeister · Двойной"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 600,
+          "img": "img/059-j-germeister-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 200,
+          "hidden": false
+        },
+        {
+          "id": "olmeca-tequila-35-cl-set",
+          "name": {
+            "tr": "Olmeca Tequila · 35 cl Set",
+            "en": "Olmeca Tequila · 35 cl Set",
+            "ru": "Olmeca Tequila · Сет 35 cl"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 3250,
+          "img": "img/063-olmeca-tequila-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 780,
+          "hidden": false
+        },
+        {
+          "id": "olmeca-tequila-70-cl-set",
+          "name": {
+            "tr": "Olmeca Tequila · 70 cl Set",
+            "en": "Olmeca Tequila · 70 cl Set",
+            "ru": "Olmeca Tequila · Сет 70 cl"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 5000,
+          "img": "img/063-olmeca-tequila-35-cl-set.jpg",
+          "allergens": [],
+          "kcal": 1560,
+          "hidden": false
+        },
+        {
+          "id": "cognac-tek",
+          "name": {
+            "tr": "Cognac · Tek",
+            "en": "Cognac · Single",
+            "ru": "Cognac · Одинарный"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 500,
+          "img": "img/066-cognac-tek.jpg",
+          "allergens": [],
+          "kcal": 110,
+          "hidden": false
+        },
+        {
+          "id": "cognac-double",
+          "name": {
+            "tr": "Cognac · Double",
+            "en": "Cognac · Double",
+            "ru": "Cognac · Двойной"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 600,
+          "img": "img/067-cognac-double.jpg",
+          "allergens": [],
+          "kcal": 220,
+          "hidden": false
+        },
+        {
+          "id": "white-rum-35-cl-set",
+          "name": {
+            "tr": "White Rum · 35 cl Set",
+            "en": "White Rum · 35 cl Set",
+            "ru": "White Rum · Сет 35 cl"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 2500,
+          "img": "img/066-cognac-tek.jpg",
+          "allergens": [],
+          "kcal": 780,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": "wines",
+      "name": {
+        "tr": "Şaraplar",
+        "en": "Wines",
+        "ru": "Вина"
+      },
+      "cover": "img/090-kirmizi-sarap-sise.jpg",
+      "hidden": false,
+      "items": [
+        {
+          "id": "kirmizi-sarap-premium-sise",
+          "name": {
+            "tr": "Kırmızı Şarap · Premium Şişe",
+            "en": "Red Wine · Premium Bottle",
+            "ru": "Красное вино · Премиум Бутылка"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 3500,
+          "img": "img/090-kirmizi-sarap-sise.jpg",
+          "allergens": [
+            "sulphites"
+          ],
+          "kcal": 620,
+          "hidden": false
+        },
+        {
+          "id": "kirmizi-sarap-premium-kadeh",
+          "name": {
+            "tr": "Kırmızı Şarap · Premium Kadeh",
+            "en": "Red Wine · Premium Glass",
+            "ru": "Красное вино · Премиум Бокал"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 450,
+          "img": "img/090-kirmizi-sarap-sise.jpg",
+          "allergens": [
+            "sulphites"
+          ],
+          "kcal": 125,
+          "hidden": false
+        },
+        {
+          "id": "kirmizi-sarap-sise",
+          "name": {
+            "tr": "Kırmızı Şarap · Şişe",
+            "en": "Red Wine · Bottle",
+            "ru": "Красное вино · Бутылка"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 3000,
+          "img": "img/090-kirmizi-sarap-sise.jpg",
+          "allergens": [
+            "sulphites"
+          ],
+          "kcal": 620,
+          "hidden": false
+        },
+        {
+          "id": "kirmizi-sarap-kadeh",
+          "name": {
+            "tr": "Kırmızı Şarap · Kadeh",
+            "en": "Red Wine · Glass",
+            "ru": "Красное вино · Бокал"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 350,
+          "img": "img/090-kirmizi-sarap-sise.jpg",
+          "allergens": [
+            "sulphites"
+          ],
+          "kcal": 125,
+          "hidden": false
+        },
+        {
+          "id": "beyaz-sarap-premium-sise",
+          "name": {
+            "tr": "Beyaz Şarap · Premium Şişe",
+            "en": "White Wine · Premium Bottle",
+            "ru": "Белое вино · Премиум Бутылка"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 3500,
+          "img": "img/094-beyaz-sarap-sise.jpg",
+          "allergens": [
+            "sulphites"
+          ],
+          "kcal": 620,
+          "hidden": false
+        },
+        {
+          "id": "beyaz-sarap-premium-kadeh",
+          "name": {
+            "tr": "Beyaz Şarap · Premium Kadeh",
+            "en": "White Wine · Premium Glass",
+            "ru": "Белое вино · Премиум Бокал"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 450,
+          "img": "img/094-beyaz-sarap-sise.jpg",
+          "allergens": [
+            "sulphites"
+          ],
+          "kcal": 125,
+          "hidden": false
+        },
+        {
+          "id": "beyaz-sarap-sise",
+          "name": {
+            "tr": "Beyaz Şarap · Şişe",
+            "en": "White Wine · Bottle",
+            "ru": "Белое вино · Бутылка"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 3000,
+          "img": "img/094-beyaz-sarap-sise.jpg",
+          "allergens": [
+            "sulphites"
+          ],
+          "kcal": 620,
+          "hidden": false
+        },
+        {
+          "id": "beyaz-sarap-kadeh",
+          "name": {
+            "tr": "Beyaz Şarap · Kadeh",
+            "en": "White Wine · Glass",
+            "ru": "Белое вино · Бокал"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 350,
+          "img": "img/094-beyaz-sarap-sise.jpg",
+          "allergens": [
+            "sulphites"
+          ],
+          "kcal": 125,
+          "hidden": false
+        },
+        {
+          "id": "rose-sarap-premium-sise",
+          "name": {
+            "tr": "Rose Şarap · Premium Şişe",
+            "en": "Rosé Wine · Premium Bottle",
+            "ru": "Розовое вино · Премиум Бутылка"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 3500,
+          "img": "img/098-rose-sarap-sise.jpg",
+          "allergens": [
+            "sulphites"
+          ],
+          "kcal": 620,
+          "hidden": false
+        },
+        {
+          "id": "rose-sarap-premium-kadeh",
+          "name": {
+            "tr": "Rose Şarap · Premium Kadeh",
+            "en": "Rosé Wine · Premium Glass",
+            "ru": "Розовое вино · Премиум Бокал"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 450,
+          "img": "img/098-rose-sarap-sise.jpg",
+          "allergens": [
+            "sulphites"
+          ],
+          "kcal": 125,
+          "hidden": false
+        },
+        {
+          "id": "rose-sarap-sise",
+          "name": {
+            "tr": "Rose Şarap · Şişe",
+            "en": "Rosé Wine · Bottle",
+            "ru": "Розовое вино · Бутылка"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 3000,
+          "img": "img/098-rose-sarap-sise.jpg",
+          "allergens": [
+            "sulphites"
+          ],
+          "kcal": 620,
+          "hidden": false
+        },
+        {
+          "id": "rose-sarap-kadeh",
+          "name": {
+            "tr": "Rose Şarap · Kadeh",
+            "en": "Rosé Wine · Glass",
+            "ru": "Розовое вино · Бокал"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 350,
+          "img": "img/098-rose-sarap-sise.jpg",
+          "allergens": [
+            "sulphites"
+          ],
+          "kcal": 125,
+          "hidden": false
+        },
+        {
+          "id": "sampanya-sise",
+          "name": {
+            "tr": "Şampanya · Şişe",
+            "en": "Champagne · Bottle",
+            "ru": "Шампанское · бутылка"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 6000,
+          "img": "img/102-sampanya-sise.jpg",
+          "allergens": [
+            "sulphites"
+          ],
+          "kcal": 580,
+          "hidden": false
+        },
+        {
+          "id": "sampanya-sise-2",
+          "name": {
+            "tr": "Şampanya · Şişe",
+            "en": "Champagne · Bottle",
+            "ru": "Шампанское · бутылка"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 4500,
+          "img": "img/102-sampanya-sise.jpg",
+          "allergens": [
+            "sulphites"
+          ],
+          "kcal": 580,
+          "hidden": false
+        },
+        {
+          "id": "sampanya-sise-3",
+          "name": {
+            "tr": "Şampanya · Şişe",
+            "en": "Champagne · Bottle",
+            "ru": "Шампанское · бутылка"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 3000,
+          "img": "img/102-sampanya-sise.jpg",
+          "allergens": [
+            "sulphites"
+          ],
+          "kcal": 580,
+          "hidden": false
+        },
+        {
+          "id": "sampanya-sise-4",
+          "name": {
+            "tr": "Şampanya · Şişe",
+            "en": "Champagne · Bottle",
+            "ru": "Шампанское · бутылка"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 2500,
+          "img": "img/102-sampanya-sise.jpg",
+          "allergens": [
+            "sulphites"
+          ],
+          "kcal": 580,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": "beers",
+      "name": {
+        "tr": "Biralar",
+        "en": "Beers",
+        "ru": "Пиво"
+      },
+      "cover": "img/081-efes.jpg",
+      "hidden": false,
+      "items": [
+        {
+          "id": "efes",
+          "name": {
+            "tr": "Efes",
+            "en": "Efes",
+            "ru": "Эфес"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 300,
+          "img": "img/081-efes.jpg",
+          "allergens": [
+            "gluten"
+          ],
+          "kcal": 210,
+          "hidden": false
+        },
+        {
+          "id": "efes-malt",
+          "name": {
+            "tr": "Efes Malt",
+            "en": "Efes Malt",
+            "ru": "Эфес Мальт"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 300,
+          "img": "img/082-efes-malt.jpg",
+          "allergens": [
+            "gluten"
+          ],
+          "kcal": 230,
+          "hidden": false
+        },
+        {
+          "id": "bomonti-filtresiz",
+          "name": {
+            "tr": "Bomonti Filtresiz",
+            "en": "Bomonti Unfiltered",
+            "ru": "Бомонти нефильтрованное"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 300,
+          "img": "img/083-bomonti-unfiltered.jpg",
+          "allergens": [
+            "gluten"
+          ],
+          "kcal": 220,
+          "hidden": false
+        },
+        {
+          "id": "bomonti-malt",
+          "name": {
+            "tr": "Bomonti Malt",
+            "en": "Bomonti Malt",
+            "ru": "Бомонти Мальт"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 300,
+          "img": "img/084-bomonti-malt.jpg",
+          "allergens": [
+            "gluten"
+          ],
+          "kcal": 230,
+          "hidden": false
+        },
+        {
+          "id": "beck-s",
+          "name": {
+            "tr": "Beck's",
+            "en": "Beck's",
+            "ru": "Бекс"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 300,
+          "img": "img/085-becks.jpg",
+          "allergens": [
+            "gluten"
+          ],
+          "kcal": 210,
+          "hidden": false
+        },
+        {
+          "id": "miller",
+          "name": {
+            "tr": "Miller",
+            "en": "Miller",
+            "ru": "Миллер"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 300,
+          "img": "img/086-miller.jpg",
+          "allergens": [
+            "gluten"
+          ],
+          "kcal": 200,
+          "hidden": false
+        },
+        {
+          "id": "tuborg",
+          "name": {
+            "tr": "Tuborg",
+            "en": "Tuborg",
+            "ru": "Туборг"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 300,
+          "img": "img/087-tuborg.jpg",
+          "allergens": [
+            "gluten"
+          ],
+          "kcal": 210,
+          "hidden": false
+        },
+        {
+          "id": "carlsberg",
+          "name": {
+            "tr": "Carlsberg",
+            "en": "Carlsberg",
+            "ru": "Карлсберг"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 300,
+          "img": "img/088-carlsberg.jpg",
+          "allergens": [
+            "gluten"
+          ],
+          "kcal": 210,
+          "hidden": false
+        },
+        {
+          "id": "meksika-bardak",
+          "name": {
+            "tr": "Meksika Bardak",
+            "en": "Mexican Glass",
+            "ru": "Мексиканский бокал"
+          },
+          "desc": {
+            "tr": "Tuzlu, limonlu bardak (ek ücret)",
+            "en": "Salt & lime rimmed glass (extra)",
+            "ru": "Бокал с солью и лаймом (доплата)"
+          },
+          "price": 50,
+          "img": "img/089-mexican-glass-meksika-bardak.jpg",
+          "allergens": [],
+          "kcal": 5,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": "mocktails",
+      "name": {
+        "tr": "Alkolsüz Kokteyller",
+        "en": "Mocktails",
+        "ru": "Безалкогольные коктейли"
+      },
+      "cover": "img/133-berrys.jpg",
+      "hidden": false,
+      "items": [
+        {
+          "id": "alkolsuz-mojito",
+          "name": {
+            "tr": "Alkolsüz Mojito",
+            "en": "Virgin Mojito",
+            "ru": "Безалкогольный мохито"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 300,
+          "img": "img/131-alkolsuz-mojito.jpg",
+          "allergens": [],
+          "kcal": 150,
+          "hidden": false
+        },
+        {
+          "id": "belek",
+          "name": {
+            "tr": "Belek",
+            "en": "Belek",
+            "ru": "Белек"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 300,
+          "img": "img/132-belek.jpg",
+          "allergens": [],
+          "kcal": 190,
+          "hidden": false
+        },
+        {
+          "id": "berrys",
+          "name": {
+            "tr": "Berrys",
+            "en": "Berrys",
+            "ru": "Беррис"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 300,
+          "img": "img/133-berrys.jpg",
+          "allergens": [],
+          "kcal": 180,
+          "hidden": false
+        },
+        {
+          "id": "rainbow",
+          "name": {
+            "tr": "Rainbow",
+            "en": "Rainbow",
+            "ru": "Рейнбоу"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 300,
+          "img": "img/134-rainbow.jpg",
+          "allergens": [],
+          "kcal": 210,
+          "hidden": false
+        },
+        {
+          "id": "smurfs",
+          "name": {
+            "tr": "Smurfs",
+            "en": "Smurfs",
+            "ru": "Смёрфс"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 300,
+          "img": "img/135-smurfs.jpg",
+          "allergens": [],
+          "kcal": 200,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": "shakes",
+      "name": {
+        "tr": "Milkshake · Frozen · Frappe",
+        "en": "Milkshake · Frozen · Frappe",
+        "ru": "Милкшейк · Фрозен · Фраппе"
+      },
+      "cover": "img/137-milkshake.jpg",
+      "hidden": false,
+      "items": [
+        {
+          "id": "ice-coffee",
+          "name": {
+            "tr": "Ice Coffee",
+            "en": "Iced Coffee",
+            "ru": "Холодный кофе"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 270,
+          "img": "img/136-ice-coffee.jpg",
+          "allergens": [
+            "milk"
+          ],
+          "kcal": 250,
+          "hidden": false
+        },
+        {
+          "id": "milkshake",
+          "name": {
+            "tr": "Milkshake",
+            "en": "Milkshake",
+            "ru": "Милкшейк"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 270,
+          "img": "img/137-milkshake.jpg",
+          "allergens": [
+            "milk"
+          ],
+          "kcal": 450,
+          "hidden": false
+        },
+        {
+          "id": "frozen",
+          "name": {
+            "tr": "Frozen",
+            "en": "Frozen",
+            "ru": "Фрозен"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 300,
+          "img": "img/138-frozen.jpg",
+          "allergens": [],
+          "kcal": 250,
+          "hidden": false
+        },
+        {
+          "id": "frappe",
+          "name": {
+            "tr": "Frappe",
+            "en": "Frappé",
+            "ru": "Фраппе"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 300,
+          "img": "img/139-frappe.jpg",
+          "allergens": [
+            "milk"
+          ],
+          "kcal": 320,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": "soft",
+      "name": {
+        "tr": "Meşrubatlar",
+        "en": "Soft Drinks",
+        "ru": "Безалкогольные напитки"
+      },
+      "cover": "img/143-kola.jpg",
+      "hidden": false,
+      "items": [
+        {
+          "id": "su-kucuk",
+          "name": {
+            "tr": "Su (Küçük)",
+            "en": "Water (Small)",
+            "ru": "Вода (маленькая)"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 45,
+          "img": "img/140-su-kucuk.jpg",
+          "allergens": [],
+          "kcal": 0,
+          "hidden": false
+        },
+        {
+          "id": "sade-soda",
+          "name": {
+            "tr": "Sade Soda",
+            "en": "Sparkling Water",
+            "ru": "Минеральная вода"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 60,
+          "img": "img/141-sade-soda.jpg",
+          "allergens": [],
+          "kcal": 0,
+          "hidden": false
+        },
+        {
+          "id": "meyveli-soda",
+          "name": {
+            "tr": "Meyveli Soda",
+            "en": "Flavoured Soda",
+            "ru": "Фруктовая газировка"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 90,
+          "img": "img/142-meyveli-soda.jpg",
+          "allergens": [],
+          "kcal": 90,
+          "hidden": false
+        },
+        {
+          "id": "kola",
+          "name": {
+            "tr": "Kola",
+            "en": "Cola",
+            "ru": "Кола"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 180,
+          "img": "img/143-kola.jpg",
+          "allergens": [],
+          "kcal": 140,
+          "hidden": false
+        },
+        {
+          "id": "fanta",
+          "name": {
+            "tr": "Fanta",
+            "en": "Fanta",
+            "ru": "Фанта"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 180,
+          "img": "img/144-fanta.jpg",
+          "allergens": [],
+          "kcal": 150,
+          "hidden": false
+        },
+        {
+          "id": "sprite",
+          "name": {
+            "tr": "Sprite",
+            "en": "Sprite",
+            "ru": "Спрайт"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 180,
+          "img": "img/145-sprite.jpg",
+          "allergens": [],
+          "kcal": 140,
+          "hidden": false
+        },
+        {
+          "id": "ice-tea",
+          "name": {
+            "tr": "Ice Tea",
+            "en": "Iced Tea",
+            "ru": "Холодный чай"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 180,
+          "img": "img/146-ice-tea.jpg",
+          "allergens": [],
+          "kcal": 110,
+          "hidden": false
+        },
+        {
+          "id": "limonata",
+          "name": {
+            "tr": "Limonata",
+            "en": "Lemonade",
+            "ru": "Лимонад"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 150,
+          "img": "img/147-limonata.jpg",
+          "allergens": [],
+          "kcal": 150,
+          "hidden": false
+        },
+        {
+          "id": "meyve-suyu",
+          "name": {
+            "tr": "Meyve Suyu",
+            "en": "Fruit Juice",
+            "ru": "Фруктовый сок"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 180,
+          "img": "img/148-meyve-suyu.jpg",
+          "allergens": [],
+          "kcal": 150,
+          "hidden": false
+        },
+        {
+          "id": "taze-sikilmis-portakal-suyu",
+          "name": {
+            "tr": "Taze Sıkılmış Portakal Suyu",
+            "en": "Fresh Orange Juice",
+            "ru": "Свежевыжатый апельсиновый сок"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 150,
+          "img": "img/149-taze-sikilmis-portakal-suyu.jpg",
+          "allergens": [],
+          "kcal": 120,
+          "hidden": false
+        },
+        {
+          "id": "taze-sikilmis-nar-suyu",
+          "name": {
+            "tr": "Taze Sıkılmış Nar Suyu",
+            "en": "Fresh Pomegranate Juice",
+            "ru": "Свежевыжатый гранатовый сок"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 150,
+          "img": "img/150-taze-sikilmis-nar-suyu.jpg",
+          "allergens": [],
+          "kcal": 140,
+          "hidden": false
+        },
+        {
+          "id": "red-bull",
+          "name": {
+            "tr": "Red Bull",
+            "en": "Red Bull",
+            "ru": "Ред Булл"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 200,
+          "img": "img/151-redbull.jpg",
+          "allergens": [],
+          "kcal": 110,
+          "hidden": false
+        },
+        {
+          "id": "salgam-buyuk",
+          "name": {
+            "tr": "Şalgam (Büyük)",
+            "en": "Şalgam – Turnip Juice (Large)",
+            "ru": "Шалгам – сок из репы (большой)"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 250,
+          "img": "img/152-salgam-buyuk.jpg",
+          "allergens": [],
+          "kcal": 30,
+          "hidden": false
+        },
+        {
+          "id": "churchill",
+          "name": {
+            "tr": "Churchill",
+            "en": "Churchill (Lemon Soda)",
+            "ru": "Черчилль (содовая с лимоном)"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 150,
+          "img": "img/153-churchill.jpg",
+          "allergens": [],
+          "kcal": 60,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": "hot",
+      "name": {
+        "tr": "Sıcak İçecekler",
+        "en": "Hot Drinks",
+        "ru": "Горячие напитки"
+      },
+      "cover": "img/156-turk-kahvesi.jpg",
+      "hidden": false,
+      "items": [
+        {
+          "id": "cay-fincan",
+          "name": {
+            "tr": "Çay (Fincan)",
+            "en": "Tea (Cup)",
+            "ru": "Чай (чашка)"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 100,
+          "img": "img/154-cay-fincan.jpg",
+          "allergens": [],
+          "kcal": 2,
+          "hidden": false
+        },
+        {
+          "id": "bitki-caylari",
+          "name": {
+            "tr": "Bitki Çayları",
+            "en": "Herbal Teas",
+            "ru": "Травяной чай"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 180,
+          "img": "img/155-bitki-caylari.jpg",
+          "allergens": [],
+          "kcal": 2,
+          "hidden": false
+        },
+        {
+          "id": "turk-kahvesi",
+          "name": {
+            "tr": "Türk Kahvesi",
+            "en": "Turkish Coffee",
+            "ru": "Турецкий кофе"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 150,
+          "img": "img/156-turk-kahvesi.jpg",
+          "allergens": [],
+          "kcal": 10,
+          "hidden": false
+        },
+        {
+          "id": "espresso",
+          "name": {
+            "tr": "Espresso",
+            "en": "Espresso",
+            "ru": "Эспрессо"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 150,
+          "img": "img/157-espresso.jpg",
+          "allergens": [],
+          "kcal": 3,
+          "hidden": false
+        },
+        {
+          "id": "double-espresso",
+          "name": {
+            "tr": "Double Espresso",
+            "en": "Double Espresso",
+            "ru": "Двойной эспрессо"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 200,
+          "img": "img/158-double-espresso.jpg",
+          "allergens": [],
+          "kcal": 5,
+          "hidden": false
+        },
+        {
+          "id": "americano",
+          "name": {
+            "tr": "Americano",
+            "en": "Americano",
+            "ru": "Американо"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 180,
+          "img": "img/159-americano.jpg",
+          "allergens": [],
+          "kcal": 10,
+          "hidden": false
+        },
+        {
+          "id": "latte",
+          "name": {
+            "tr": "Latte",
+            "en": "Latte",
+            "ru": "Латте"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 240,
+          "img": "img/160-latte.jpg",
+          "allergens": [
+            "milk"
+          ],
+          "kcal": 190,
+          "hidden": false
+        },
+        {
+          "id": "cappuccino",
+          "name": {
+            "tr": "Cappuccino",
+            "en": "Cappuccino",
+            "ru": "Капучино"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 240,
+          "img": "img/161-cappucino.jpg",
+          "allergens": [
+            "milk"
+          ],
+          "kcal": 130,
+          "hidden": false
+        },
+        {
+          "id": "sicak-cikolata",
+          "name": {
+            "tr": "Sıcak Çikolata",
+            "en": "Hot Chocolate",
+            "ru": "Горячий шоколад"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 240,
+          "img": "img/162-sicak-cikolata.jpg",
+          "allergens": [
+            "milk"
+          ],
+          "kcal": 350,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "name": {
+        "tr": "Tatlı · Çerez · Meyve",
+        "en": "Desserts · Nuts · Fruit",
+        "ru": "Десерты · Орехи · Фрукты"
+      },
+      "cover": "img/168-waffle.jpg",
+      "hidden": false,
+      "items": [
+        {
+          "id": "meyve-tabagi-2",
+          "name": {
+            "tr": "Meyve Tabağı",
+            "en": "Fruit Plate",
+            "ru": "Фруктовая тарелка"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 400,
+          "img": "img/163-fruit-plate-meyve-tabagi.jpg",
+          "allergens": [],
+          "kcal": 250,
+          "hidden": false
+        },
+        {
+          "id": "cerez-tabagi",
+          "name": {
+            "tr": "Çerez Tabağı",
+            "en": "Nuts Plate",
+            "ru": "Тарелка орехов"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 150,
+          "img": "img/164-nuts-plate-cerez-tabagi.jpg",
+          "allergens": [
+            "nuts",
+            "peanuts"
+          ],
+          "kcal": 600,
+          "hidden": false
+        },
+        {
+          "id": "luks-cerez-tabagi",
+          "name": {
+            "tr": "Lüks Çerez Tabağı",
+            "en": "Luxury Nuts Plate",
+            "ru": "Ассорти орехов «Люкс»"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 250,
+          "img": "img/165-luxury-nuts-luks-cerez-tabagi.jpg",
+          "allergens": [
+            "nuts",
+            "peanuts"
+          ],
+          "kcal": 650,
+          "hidden": false
+        },
+        {
+          "id": "3-lu-cerez-tabagi",
+          "name": {
+            "tr": "3'lü Çerez Tabağı",
+            "en": "Trio Nuts Plate",
+            "ru": "Ассорти из трёх видов орехов"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 250,
+          "img": "img/166-3-lu-cerez-tabagi.jpg",
+          "allergens": [
+            "nuts",
+            "peanuts"
+          ],
+          "kcal": 600,
+          "hidden": false
+        },
+        {
+          "id": "havuc-salatalik-sogus",
+          "name": {
+            "tr": "Havuç Salatalık Söğüş",
+            "en": "Carrot & Cucumber Sticks",
+            "ru": "Морковь и огурцы (нарезка)"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 200,
+          "img": "img/167-havuc-salatalik-sogus.jpg",
+          "allergens": [],
+          "kcal": 60,
+          "hidden": false
+        },
+        {
+          "id": "waffle",
+          "name": {
+            "tr": "Waffle",
+            "en": "Waffle",
+            "ru": "Вафли"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 290,
+          "img": "img/168-waffle.jpg",
+          "allergens": [
+            "gluten",
+            "eggs",
+            "milk",
+            "nuts",
+            "soy"
+          ],
+          "kcal": 650,
+          "hidden": false
+        },
+        {
+          "id": "buyuk-dogum-gunu-pastasi",
+          "name": {
+            "tr": "Büyük Doğum Günü Pastası",
+            "en": "Large Birthday Cake",
+            "ru": "Большой праздничный торт"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 1200,
+          "img": "img/169-buyuk-dogum-gunu-pastasi.jpg",
+          "allergens": [
+            "gluten",
+            "eggs",
+            "milk"
+          ],
+          "kcal": 3500,
+          "hidden": false
+        },
+        {
+          "id": "kucuk-dogum-gunu-pastasi",
+          "name": {
+            "tr": "Küçük Doğum Günü Pastası",
+            "en": "Small Birthday Cake",
+            "ru": "Маленький праздничный торт"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 650,
+          "img": "img/170-kucuk-dogum-gunu-pastasi.jpg",
+          "allergens": [
+            "gluten",
+            "eggs",
+            "milk"
+          ],
+          "kcal": 1800,
+          "hidden": false
+        },
+        {
+          "id": "pasta-dilimi",
+          "name": {
+            "tr": "Pasta Dilimi",
+            "en": "Slice of Cake",
+            "ru": "Кусочек торта"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 250,
+          "img": "img/171-pasta-dilimi.jpg",
+          "allergens": [
+            "gluten",
+            "eggs",
+            "milk"
+          ],
+          "kcal": 420,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": "shisha",
+      "name": {
+        "tr": "Nargile",
+        "en": "Shisha",
+        "ru": "Кальян"
+      },
+      "cover": "img/172-el-fakher.jpg",
+      "hidden": false,
+      "items": [
+        {
+          "id": "el-fakher",
+          "name": {
+            "tr": "El Fakher",
+            "en": "El Fakher",
+            "ru": "El Fakher"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 1000,
+          "img": "img/172-el-fakher.jpg",
+          "allergens": [],
+          "kcal": null,
+          "hidden": false
+        },
+        {
+          "id": "adalya",
+          "name": {
+            "tr": "Adalya",
+            "en": "Adalya",
+            "ru": "Adalya"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 1000,
+          "img": "img/172-el-fakher.jpg",
+          "allergens": [],
+          "kcal": null,
+          "hidden": false
+        },
+        {
+          "id": "nakhla",
+          "name": {
+            "tr": "Nakhla",
+            "en": "Nakhla",
+            "ru": "Nakhla"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 1000,
+          "img": "img/172-el-fakher.jpg",
+          "allergens": [],
+          "kcal": null,
+          "hidden": false
+        },
+        {
+          "id": "starbuzz",
+          "name": {
+            "tr": "Starbuzz",
+            "en": "Starbuzz",
+            "ru": "Starbuzz"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 1000,
+          "img": "img/172-el-fakher.jpg",
+          "allergens": [],
+          "kcal": null,
+          "hidden": false
+        },
+        {
+          "id": "jibiar",
+          "name": {
+            "tr": "Jibiar",
+            "en": "Jibiar",
+            "ru": "Jibiar"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 1000,
+          "img": "img/172-el-fakher.jpg",
+          "allergens": [],
+          "kcal": null,
+          "hidden": false
+        },
+        {
+          "id": "dark",
+          "name": {
+            "tr": "Dark",
+            "en": "Dark",
+            "ru": "Dark"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 1000,
+          "img": "img/172-el-fakher.jpg",
+          "allergens": [],
+          "kcal": null,
+          "hidden": false
+        },
+        {
+          "id": "naturel",
+          "name": {
+            "tr": "Naturel",
+            "en": "Naturel",
+            "ru": "Naturel"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 1000,
+          "img": "img/172-el-fakher.jpg",
+          "allergens": [],
+          "kcal": null,
+          "hidden": false
+        },
+        {
+          "id": "lule-degisimi",
+          "name": {
+            "tr": "Lüle Değişimi",
+            "en": "Bowl Change",
+            "ru": "Замена чаши"
+          },
+          "desc": {
+            "tr": "",
+            "en": "",
+            "ru": ""
+          },
+          "price": 300,
+          "img": "img/172-el-fakher.jpg",
+          "allergens": [],
+          "kcal": null,
+          "hidden": false
+        }
+      ]
+    }
+  ]
+}
